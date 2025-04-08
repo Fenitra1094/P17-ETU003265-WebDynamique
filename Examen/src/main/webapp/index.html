@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Accueil</title>
+        <link rel="stylesheet"  type = "text/css" href="web/assets/style.css">
+    </head>
+<body>
+    <p><a href="FormDepenseServlet">Ajouter ligne de depense</a></p>
+    <p><a href="depenseServlet">Voir liste de depense</a></p>
+
+    <p>Ajouter Ligne credit </p>
+    <form method="post" action="CreditServlet">
+    <p>Libelle : <input type="text" name="libelle_credit"></p>
+    <p>Montant : <input type="text" name="montant_credit"></p>
+    <p>
+        <input type="submit" name="Submit" rows="5" value="Valider">
+    </p>
+</form>
+</body>
+</html>
+
+
